@@ -13,8 +13,8 @@ module Minty
       attribute :id
       attribute :name
       attribute :value
-      attribute :type, 'accountType'
-      attribute :balance, 'currentBalance'
+      attribute :type, 'type'
+      attribute :balance, 'bal'
 
       def active?
         !!json['isActive']
